@@ -16,9 +16,6 @@ A 2-page React-based guitar shop application using **Apollo Client** to fetch da
 -  **Data**
   - GraphQL API: [https://graphql-api-brown.vercel.app/api/graphql](https://graphql-api-brown.vercel.app/api/graphql)
 
-
----
-
 ## Tech Stack
 
 - React
