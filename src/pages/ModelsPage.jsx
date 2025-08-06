@@ -30,7 +30,6 @@ const ModelsPage = () => {
 
     return (
         <div>
-            {/* Hero Section */}
             <div
                 className="text-white text-center py-5"
                 style={{
@@ -48,7 +47,6 @@ const ModelsPage = () => {
                 </p>
             </div>
 
-            {/* Title + Filters */}
             <div className="container text-center my-5">
                 <h3>
                     Check out the <span style={{ color: '#ff3b3b' }}>Selection</span>
@@ -76,7 +74,6 @@ const ModelsPage = () => {
                 </div>
             </div>
 
-            {/* Product Grid */}
             <div className="container">
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
                     {filteredModels.map((model) => (
@@ -102,7 +99,6 @@ const ModelsPage = () => {
                     ))}
                 </div>
 
-                {/* Dummy Pagination */}
                 <nav className="my-5 d-flex justify-content-center">
                     <ul className="pagination">
                         <li className="page-item"><a className="page-link" href="#">1</a></li>

@@ -14,7 +14,6 @@ const BrandsPage = () => {
 
     return (
         <div className="w-100">
-            {/* Navbar */}
             <nav className="navbar navbar-light bg-white px-4 w-100">
                 <div className="container-fluid">
                     <a className="navbar-brand fw-bold mx-auto" href="/">
@@ -23,7 +22,6 @@ const BrandsPage = () => {
                 </div>
             </nav>
 
-            {/* Hero */}
             <div
                 className="d-flex align-items-center justify-content-center flex-column text-white text-center"
                 style={{
@@ -38,7 +36,6 @@ const BrandsPage = () => {
                 <p className="lead">Discover your next sound with VibeStrings</p>
             </div>
 
-            {/* Brands Section */}
             <div className="w-100 py-100 bg-white">
                 <div className="container text-center">
                     <h3>Featuring the <span style={{ color: '#ff3b3b' }}>Best Brands</span></h3>
@@ -57,7 +54,6 @@ const BrandsPage = () => {
                                     // Change 1: Increased maxHeight from 50px to 80px
                                     style={{ maxHeight: '80px', objectFit: 'contain' }}
                                 />
-                                {/* Change 2: Changed the paragraph tag to a heading tag and removed 'small' class */}
                                 <h5 className="mt-2 fw-bold">{brand.name}</h5>
                             </div>
                         ))}
@@ -65,7 +61,7 @@ const BrandsPage = () => {
                 </div>
             </div>
 
-            {/* Dark Info Section */}
+
             <div className="bg-dark text-white py-5 text-center w-100">
                 <div className="container">
                     <div className="row">
@@ -83,7 +79,7 @@ const BrandsPage = () => {
                 </div>
             </div>
 
-            {/* App Promo Section */}
+
             <div className="text-center py-5 w-100 bg-white">
                 <h3>Browse and buy your <span style={{ color: '#ff3b3b' }}>favorite guitars</span> with VibeStrings.</h3>
                 <div className="d-flex flex-column flex-md-row justify-content-center align-items-center mt-4">
@@ -101,7 +97,6 @@ const BrandsPage = () => {
                 </div>
             </div>
 
-            {/* Footer */}
             <div className="text-center py-4 w-100" style={{ backgroundColor: '#f8f9fa' }}>
                 <h5>VibeStrings</h5>
                 <p>store@vibestrings.com | San Francisco</p>
